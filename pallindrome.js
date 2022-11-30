@@ -9,7 +9,7 @@ let len = str.length;       // storing length of new string
 let bag="";                 // to write horizontally
 
 
-for ( let i=len-1; i>=0; i++ ){  // update : i--
+for ( let i=len-1; i>=0; i-- ){  // update : i--
   bag += str[i];
 }
 if ( bag === str ){
